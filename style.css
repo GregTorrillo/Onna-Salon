@@ -1,0 +1,426 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+background: #282828;
+font-family: 'Julius Sans One', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* ---------------HEADER---------------  */
+header {
+width: 100%;
+height: 60px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+.logo {
+	color: #A38B5F;
+	font-size: 50px;
+}
+ul {
+  display: flex;
+}
+li {
+  padding: 0 20px;
+  color: #A38B5F;
+}
+a {
+  text-decoration: none;
+  color: #282828;
+}
+a:hover {
+  color: white;
+}
+.nav-icons {
+  width: 100%;
+	color: #A38B5F;
+}
+.navBook {
+	color: #A38B5F;
+}
+
+/* ---------------MAIN---------------  */
+.main {
+width: 100%;
+height: 1000px;
+background-image: url(../images/main-photo.jpg);
+background-size: cover;
+border-bottom-right-radius: 300px;
+clip-path: polygon(0 80%, 0 0, 100% 0, 100% 100%);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 200px 0 0 150px;
+position: relative;
+}
+.mainHeadline {
+  font-size: 80px;
+  font-weight: bold;
+	color: lightgray;
+  padding-bottom: 20px;
+}
+.mainStatement {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 10px;
+  letter-spacing: 5px;
+	color: lightgray;
+}
+.mainButton1 {
+  height: 60px;
+  width: 180px;
+  background: #A38B5F;
+  color: #282828;
+  font-weight: bold;
+  margin-top: 40px;
+  border:none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.mainBox {
+  height: 350px;
+  width: 300px;
+  background: #A38B5F;
+  position: absolute;
+  z-index: 2;
+  margin-top: 500px;
+  top: 18%;
+  left: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 4px;
+}
+.mainBoxSpan1 {
+font-size: 16px;
+font-weight: bold;
+color: #282828;
+padding-left: 30px;
+}
+.mainBoxSpan2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #282828;
+}
+.mainBoxSpan3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #282828;
+  padding: 20px 0 0 30px;
+}
+.boldNumber {
+  padding: 40px 0 0 30px;
+}
+.bold {
+  font-size: 26px;
+  font-weight: bold;
+  color: #282828;
+}
+.mainButton2 {
+  height: 70px;
+  width: 200px;
+  background: #000B14;
+  color: white;
+  font-weight: bold;
+  border:none;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 40px 0 0 30px;
+}
+
+/* ---------------SERVICES---------------  */
+.services {
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 200px;
+}
+.servicesIcon {
+  width: 20%;
+}
+.servicesHeadline {
+  font-size: 24px;
+  font-weight: bold;
+  color: #A38B5F;
+  padding-top: 25px;
+}
+.servicesParagraph {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A38B5F;
+  padding: 20px 0 0 0;
+  line-height: 25px;
+}
+.quality, .beauticians, .products  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 75px;
+}
+
+/* ---------------MOMENTUM---------------  */
+.momentum {
+width: 100%;
+height: 660px;
+background: #313B47;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.momentumeColumn1 {
+  width: 50%;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 100px 0 275px;
+}
+.momentumHeadline {
+  font-size: 44px;
+  font-weight: bold;
+  color: #A38B5F;
+  padding-bottom: 10px;
+}
+.momentumParagraph {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A38B5F;
+  line-height: 25px;
+  padding-top: 20px;
+}
+.momentumeColumn2 {
+  width: 50%;
+  height: 660px;
+  display: flex;
+  align-items: center
+}
+.momentumPhoto {
+  width: 75%;
+}
+
+/* ---------------STYLISTS---------------  */
+.stylists {
+width: 100%;
+height: 660px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.stylistColumn1, .stylistColumn2, .stylistColumn3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 30px;
+  border: 5px solid #020A14;
+}
+.stylistBox {
+  height: 70px;
+  width: 220px;
+  background: #A38B5F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 95%;
+  left: 20%;
+  border-radius: 4px;
+}
+.stylistName {
+  font-size: 16px;
+  color: #282828;
+  font-weight: bold;
+}
+.occupation {
+  font-size: 12px;
+  color: #282828;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+/* ---------------COUPON---------------  */
+.coupon {
+width: 100%;
+height: 500px;
+position: relative;
+}
+.couponPhoto {
+  width: 50%;
+  display: block;
+  position: relative;
+  top: 10%;
+  left: 25%;
+}
+.couponBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.couponSpan1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #282828;
+  padding-bottom: 20px;
+}
+.couponSpan2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #282828;
+}
+.couponSpan3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #282828;
+  padding-bottom: 20px;
+}
+.couponParagraph {
+padding-bottom: 20px;
+}
+.couponBold {
+  font-size: 36px;
+  font-weight: bold;
+  color: #282828;
+}
+.couponButton {
+  height: 70px;
+  width: 240px;
+  background: #000B14;
+  color: white;
+  font-weight: bold;
+  border:none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* ---------------LOOKBOOK---------------  */
+.lookbook {
+width: 100%;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+}
+.lookbookHeadline {
+  font-size: 44px;
+  font-weight: bold;
+  color: #A38B5F;
+}
+.lookbookDash {
+  font-size: 44px;
+  font-weight: bold;
+  color: #A38B5F;
+}
+
+/* ---------------GALLERY---------------  */
+.gallery  {
+width: 100%;
+height: 1300px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 2rem;
+padding: 50px 0;
+}
+.galleryColumn1, .galleryColumn2, .galleryColumn3 {
+  width: 20%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
