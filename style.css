@@ -426,7 +426,7 @@ padding: 50px 0;
 /*******************************************/
 /* ------------------MEDIA QUERY-LAPTOP---------------------- */
 
-@media screen and (min-width: 1280px) and (max-width: 1900px ) {
+@media screen and (min-width: 1400px) and (max-width: 1900px ) {
 	/* ---------------MAIN---------------  */
 	.main {
 	width: 100%;
@@ -670,7 +670,7 @@ padding: 50px 0;
 	/* ---------------LOOKBOOK---------------  */
 	.lookbook {
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -689,15 +689,15 @@ padding: 50px 0;
 	/* ---------------GALLERY---------------  */
 	.gallery  {
 	width: 100%;
-	height: 1000px;
+	height: 800px;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	gap: 1rem;
 	}
 	.galleryColumn1, .galleryColumn2, .galleryColumn3 {
 	  width: 20%;
-	  height: 750px;
+	  height: 800px;
 	  display: flex;
 	  flex-direction: column;
 	  justify-content: center;
@@ -707,4 +707,317 @@ padding: 50px 0;
 
 /* ------------------MEDIA QUERY-TABLET---------------------- */
 
-@media screen and (min-width: 1024px) and (max-width: 1280px )
+@media screen and (min-width: 1200px) and (max-width: 1400px ){
+	/* ---------------HEADER---------------  */
+
+	.logo {
+		color: #A38B5F;
+		font-size: 40px;
+	}
+	li {
+	  padding: 0 15px;
+	  color: #A38B5F;
+	}
+	/* ---------------MAIN---------------  */
+	.main {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/main-photo.jpg);
+	background-size: cover;
+	background-position: left;
+	border-bottom-right-radius: 300px;
+	clip-path: polygon(0 80%, 0 0, 100% 0, 100% 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+	margin: 0;
+	padding-left: 80px;
+	}
+	.mainHeadline {
+	  font-size: 60px;
+	  font-weight: bold;
+		color: lightgray;
+	  padding: 0 0 20px 0;
+	}
+	.mainStatement {
+	  font-size: 16px;
+	  font-weight: 400;
+	  padding-top: 10px;
+	  letter-spacing: 1px;
+		color: lightgray;
+
+	}
+	.mainButton1 {
+	  height: 50px;
+	  width: 150px;
+	  background: #A38B5F;
+	  color: #282828;
+	  font-weight: bold;
+	  margin-top: 40px;
+	  border:none;
+	  border-radius: 4px;
+	  font-size: 14px;
+
+	}
+	.mainBox {
+	  height: 300px;
+	  width: 250px;
+	  background: #A38B5F;
+	  position: absolute;
+	  z-index: 2;
+	  margin-top: 500px;
+	  top: 8%;
+	  left: 7%;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: flex-start;
+	  border-radius: 4px;
+	}
+	.mainBoxSpan1 {
+		font-size: 16px;
+		font-weight: bold;
+		color: #282828;
+		padding-left: 20px;
+	}
+	.mainBoxSpan2 {
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: #282828;
+	}
+	.mainBoxSpan3 {
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: #282828;
+	  padding: 20px 0 0 20px;
+	}
+	.boldNumber {
+	  padding: 40px 0 0 20px;
+	}
+	.bold {
+	  font-size: 20px;
+	  font-weight: bold;
+	  color: #282828;
+	}
+	.mainButton2 {
+	  height: 50px;
+	  width: 150px;
+	  background: #000B14;
+	  color: white;
+	  font-weight: bold;
+	  border:none;
+	  border-radius: 4px;
+	  font-size: 12px;
+	  margin: 40px 0 0 20px;
+	}
+	/* ---------------SERVICES---------------  */
+	.services {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 100px;
+	}
+	.servicesIcon {
+	  width: 20%;
+	}
+	.servicesHeadline {
+	  font-size: 20px;
+	  font-weight: bold;
+	  color: #A38B5F;
+	  padding-top: 25px;
+	}
+	.servicesParagraph {
+	  font-size: 14px;
+	  font-weight: 400;
+	  color: #A38B5F;
+	  padding: 20px 0 0 0;
+	  line-height: 20px;
+	}
+	.quality, .beauticians, .products  {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  padding: 0 50px;
+	}
+	/* ---------------MOMENTUM---------------  */
+	.momentum {
+	width: 100%;
+	height: 600px;
+	background: #313B47;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	.momentumeColumn1 {
+	  width: 50%;
+	  height: 600px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: flex-start;
+	  padding: 0 50px 0 70px;
+	}
+	.momentumHeadline {
+	  font-size: 34px;
+	  font-weight: bold;
+	  color: #A38B5F;
+	  padding-bottom: 10px;
+	}
+	.momentumParagraph {
+	  font-size: 14px;
+	  font-weight: 400;
+	  color: #A38B5F;
+	  line-height: 20px;
+	  padding-top: 20px;
+	}
+	.momentumeColumn2 {
+	  width: 50%;
+	  height: 600px;
+	  display: flex;
+	  align-items: center
+	}
+	.momentumPhoto {
+	  width: 75%;
+	}
+	/* ---------------STYLISTS---------------  */
+	.stylists {
+		width: 100%;
+		height: 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.stylistColumn1, .stylistColumn2, .stylistColumn3 {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  position: relative;
+	  margin: 0;
+		border: none;
+	}
+	.stylist {
+		width: 75%;
+		border: 5px solid #020A14;
+	}
+	.stylistBox {
+	  height: 50px;
+	  width: 150px;
+	  background: #A38B5F;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  position: absolute;
+	  top: 95%;
+	  left: 30%;
+	  border-radius: 4px;
+	}
+	.stylistName {
+	  font-size: 14px;
+	  color: #282828;
+	  font-weight: bold;
+	}
+	.occupation {
+	  font-size: 10px;
+	  color: #282828;
+	  font-weight: bold;
+	  padding-top: 5px;
+	}
+	/* ---------------COUPON---------------  */
+	.coupon {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	}
+	.couponPhoto {
+	  width: 60%;
+	  display: block;
+	  position: relative;
+	  top: 10%;
+	  left: 20%;
+	}
+	.couponBox {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: flex-start;
+	  position: absolute;
+	  top: 20%;
+	  left: 25%;
+	}
+	.couponSpan1 {
+	  font-size: 14px;
+	  font-weight: bold;
+	  color: #282828;
+	  padding-bottom: 20px;
+	}
+	.couponSpan2 {
+	  font-size: 20px;
+	  font-weight: bold;
+	  color: #282828;
+	}
+	.couponSpan3 {
+	  font-size: 20px;
+	  font-weight: bold;
+	  color: #282828;
+	  padding-bottom: 20px;
+	}
+	.couponParagraph {
+	padding-bottom: 20px;
+	}
+	.couponBold {
+	  font-size: 26px;
+	  font-weight: bold;
+	  color: #282828;
+	}
+	.couponButton {
+	  height: 50px;
+	  width: 180px;
+	  background: #000B14;
+	  color: white;
+	  font-weight: bold;
+	  border:none;
+	  border-radius: 4px;
+	  font-size: 12px;
+	}
+	/* ---------------LOOKBOOK---------------  */
+	.lookbook {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+	.lookbookHeadline, .lookbookDash {
+	  font-size: 40px;
+	  font-weight: bold;
+	  color: #A38B5F;
+	}
+
+	/* ---------------GALLERY---------------  */
+	.gallery  {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 50px 0;
+	}
+	.galleryColumn1, .galleryColumn2, .galleryColumn3 {
+	  width: 20%;
+	  height: 700px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  gap: 1rem;
+	}
+
+
+}
