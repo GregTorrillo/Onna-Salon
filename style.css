@@ -91,11 +91,11 @@ nav {
   height: 60px;
 }
 nav img {
- display: none;
+	display: none;
 }
 .logo {
-  color: #A38B5F;
-  font-size: 50px;
+	color: #A38B5F;
+	font-size: 50px;
 }
 .logo:hover {
 	cursor: pointer;
@@ -129,24 +129,24 @@ nav li:hover {
 
 /* ---------------MAIN---------------  */
 .main {
-  width: 100%;
-  height: 1000px;
-  background-image: url(../images/main-photo.jpg);
-  background-size: cover;
-  background-position: center;
-  border-bottom-right-radius: 300px;
-  clip-path: polygon(0 80%, 0 0, 100% 0, 100% 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 200px 0 0 150px;
-  position: relative;
+width: 100%;
+height: 1000px;
+background-image: url(../images/main-photo.jpg);
+background-size: cover;
+background-position: center;
+border-bottom-right-radius: 300px;
+clip-path: polygon(0 80%, 0 0, 100% 0, 100% 100%);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 200px 0 0 150px;
+position: relative;
 }
 .mainHeadline {
   font-size: 80px;
   font-weight: bold;
-  color: lightgray;
+	color: lightgray;
   padding-bottom: 20px;
 }
 .mainStatement {
@@ -154,7 +154,7 @@ nav li:hover {
   font-weight: 400;
   padding-top: 10px;
   letter-spacing: 5px;
-  color: lightgray;
+	color: lightgray;
 }
 .mainButton1 {
   height: 60px;
@@ -168,10 +168,10 @@ nav li:hover {
   font-size: 14px;
 }
 .mainButton1:hover {
-  background: #020911;
-  color: lightgray;
-  cursor: pointer;
-  border: 1px solid lightgray;
+	background: #020911;
+	color: lightgray;
+	cursor: pointer;
+	border: 1px solid lightgray;
 }
 .mainBox {
   height: 350px;
@@ -188,11 +188,11 @@ nav li:hover {
   align-items: flex-start;
   border-radius: 4px;
 }
-  .mainBoxSpan1 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #282828;
-  padding-left: 30px;
+.mainBoxSpan1 {
+font-size: 16px;
+font-weight: bold;
+color: #282828;
+padding-left: 30px;
 }
 .mainBoxSpan2 {
   font-size: 16px;
@@ -225,19 +225,20 @@ nav li:hover {
   margin: 40px 0 0 30px;
 }
 .mainButton2:hover {
-  background: #A38B5F;
-  color: #000B14;
-  cursor: pointer;
-  border: 2px solid #000B14;
+	background: #A38B5F;
+	color: #000B14;
+	cursor: pointer;
+	border: 2px solid #000B14;
 }
+
 /* ---------------SERVICES---------------  */
 .services {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 200px;
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 200px;
 }
 .servicesIcon {
   width: 20%;
@@ -265,12 +266,12 @@ nav li:hover {
 
 /* ---------------MOMENTUM---------------  */
 .momentum {
-  width: 100%;
-  height: 660px;
-  background: #313B47;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 100%;
+height: 660px;
+background: #313B47;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .momentumeColumn1 {
   width: 50%;
@@ -306,10 +307,10 @@ nav li:hover {
   font-size: 14px;
 }
 .mainButton3:hover {
-  background: #313B47;
-  color: #A38B5F;
-  cursor: pointer;
-  border: 1px solid #A38B5F;
+	background: #313B47;
+	color: #A38B5F;
+	cursor: pointer;
+	border: 1px solid #A38B5F;
 }
 .momentumeColumn2 {
   width: 50%;
@@ -323,11 +324,11 @@ nav li:hover {
 
 /* ---------------STYLISTS---------------  */
 .stylists {
-  width: 100%;
-  height: 660px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 100%;
+height: 660px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .stylistColumn1, .stylistColumn2, .stylistColumn3 {
   display: flex;
@@ -364,9 +365,9 @@ nav li:hover {
 
 /* ---------------COUPON---------------  */
 .coupon {
-  width: 100%;
-  height: 500px;
-  position: relative;
+width: 100%;
+height: 500px;
+position: relative;
 }
 .couponPhoto {
   width: 50%;
@@ -402,7 +403,7 @@ nav li:hover {
   padding-bottom: 20px;
 }
 .couponParagraph {
-  padding-bottom: 20px;
+padding-bottom: 20px;
 }
 .couponBold {
   font-size: 36px;
@@ -420,19 +421,20 @@ nav li:hover {
   font-size: 14px;
 }
 .couponButton:hover {
-  background: #BD9162;
-  color: #000B14;
-  cursor: pointer;
-  border: 2px solid #000B14;
+	background: #BD9162;
+	color: #000B14;
+	cursor: pointer;
+	border: 2px solid #000B14;
 }
+
 /* ---------------LOOKBOOK---------------  */
 .lookbook {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+width: 100%;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
 }
 .lookbookHeadline {
   font-size: 44px;
@@ -447,13 +449,13 @@ nav li:hover {
 
 /* ---------------GALLERY---------------  */
 .gallery  {
-  width: 100%;
-  height: 1300px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  padding: 50px 0;
+width: 100%;
+height: 1300px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 2rem;
+padding: 50px 0;
 }
 .galleryColumn1, .galleryColumn2, .galleryColumn3 {
   width: 20%;
@@ -464,21 +466,23 @@ nav li:hover {
   gap: 2rem;
 }
 .galleryLong, .galleryShort {
-  width: 100%;
+	width: 100%;
 }
+
+
 
 /******************************************
 /* MEDIA QUERIES
 /*******************************************/
 /* ------------------MEDIA QUERY-LAPTOP---------------------- */
 
-@media screen and (min-width: 1400px) and (max-width: 1900px) {
+@media screen and (min-width: 1400px) and (max-width: 1900px ) {
 /* ---------------HEADER---------------  */
 nav img {
-  display: none;
+	display: none;
 }
 	/* ---------------MAIN---------------  */
-       .main {
+	.main {
 	width: 100%;
 	height: 800px;
 	background-image: url(../images/main-photo.jpg);
@@ -631,6 +635,17 @@ nav img {
 	  line-height: 20px;
 	  padding-top: 20px;
 	}
+	.mainButton3 {
+	  height: 50px;
+	  width: 150px;
+	  background: #A38B5F;
+	  color: #282828;
+	  font-weight: bold;
+	  margin-top: 40px;
+	  border:none;
+	  border-radius: 4px;
+	  font-size: 12px;
+	}
 	.momentumeColumn2 {
 	  width: 50%;
 	  height: 660px;
@@ -760,7 +775,7 @@ nav img {
 
 /* ------------------MEDIA QUERY-TABLET LANDSCAPE---------------------- */
 
-@media screen and (min-width: 1200px) and (max-width: 1400px){
+@media screen and (min-width: 1200px) and (max-width: 1400px ){
 	/* ---------------HEADER---------------  */
 	nav img {
 		display: none;
@@ -930,6 +945,18 @@ nav img {
 	  line-height: 20px;
 	  padding-top: 20px;
 	}
+	.mainButton3 {
+	  height: 50px;
+	  width: 150px;
+	  background: #A38B5F;
+	  color: #282828;
+	  font-weight: bold;
+	  margin-top: 40px;
+	  border:none;
+	  border-radius: 4px;
+	  font-size: 14px;
+
+	}
 	.momentumeColumn2 {
 	  width: 50%;
 	  height: 600px;
@@ -1079,7 +1106,7 @@ nav img {
 }
 /* ------------------MEDIA QUERY-TABLET PORTRAIT---------------------- */
 
-@media screen and (min-width: 800px) and (max-width: 1200px){
+@media screen and (min-width: 800px) and (max-width: 1200px ){
 	/* ---------------HEADER---------------  */
 
 	nav {
@@ -1254,6 +1281,18 @@ nav img {
 	.momentumParagraph {
 	  display: none;
 	}
+	.mainButton3 {
+	  height: 50px;
+	  width: 150px;
+	  background: #A38B5F;
+	  color: #282828;
+	  font-weight: bold;
+	  margin-top: 20px;
+	  border:none;
+	  border-radius: 4px;
+	  font-size: 14px;
+
+	}
 	.momentumeColumn2 {
 	  width: 50%;
 	  height: 400px;
@@ -1403,7 +1442,7 @@ nav img {
 }
 
 /* ------------------MEDIA QUERY- SMALL TABLET ---------------------- */
-@media screen and (min-width: 600px) and (max-width: 800px){
+@media screen and (min-width: 600px) and (max-width: 800px ){
 	/* ---------------HEADER---------------  */
 	header {
 		width: 100%;
@@ -1470,7 +1509,6 @@ nav img {
 	  border:none;
 	  border-radius: 4px;
 	  font-size: 12px;
-
 	}
 	.mainBox {
 	  height: 200px;
@@ -1582,6 +1620,17 @@ nav img {
 	}
 	.momentumParagraph {
 	  display: none;
+	}
+	.mainButton3 {
+	  height: 40px;
+	  width: 120px;
+	  background: #A38B5F;
+	  color: #282828;
+	  font-weight: bold;
+	  margin-top: 20px;
+	  border:none;
+	  border-radius: 4px;
+	  font-size: 12px;
 	}
 	.momentumeColumn2 {
 	  width: 50%;
@@ -1733,7 +1782,7 @@ nav img {
 }
 
 /* ------------------MEDIA QUERY- MOBILE LANDSCAPE ---------------------- */
-@media screen and (min-width: 480px) and (max-width: 600px){
+@media screen and (min-width: 480px) and (max-width: 600px ){
 	/* ---------------HEADER---------------  */
 	header {
 		width: 100%;
@@ -1800,7 +1849,6 @@ nav img {
 	  border:none;
 	  border-radius: 4px;
 	  font-size: 12px;
-
 	}
 	.mainBox {
 	 display: none;
@@ -1873,6 +1921,17 @@ nav img {
 	  color: #A38B5F;
 	  line-height: 15px;
 	  padding-top: 20px;
+	}
+	.mainButton3 {
+		height: 40px;
+		width: 120px;
+		background: #A38B5F;
+		color: #282828;
+		font-weight: bold;
+		margin-top: 20px;
+		border:none;
+		border-radius: 4px;
+		font-size: 12px;
 	}
 	.momentumeColumn2 {
 	  width: 100%;
@@ -2031,7 +2090,7 @@ nav img {
 }
 
 /* ------------------MEDIA QUERY- MOBILE LANDSCAPE ---------------------- */
-@media screen and (min-width: 370px) and (max-width: 480px){
+@media screen and (min-width: 370px) and (max-width: 480px ){
 	/* ---------------HEADER---------------  */
 	header {
 		width: 100%;
@@ -2170,6 +2229,17 @@ nav img {
 	  color: #A38B5F;
 	  line-height: 15px;
 	  padding-top: 15px;
+	}
+	.mainButton3 {
+		height: 40px;
+		width: 120px;
+		background: #A38B5F;
+		color: #282828;
+		font-weight: bold;
+		margin-top: 20px;
+		border:none;
+		border-radius: 4px;
+		font-size: 12px;
 	}
 	.momentumeColumn2 {
 	  width: 100%;
@@ -2328,7 +2398,7 @@ nav img {
 }
 
 /* ------------------MEDIA QUERY- MOBILE PORTRAIT ---------------------- */
-@media screen and (max-width: 370px){
+@media screen and (max-width: 370px ){
 	/* ---------------HEADER---------------  */
 	header {
 		width: 100%;
@@ -2395,7 +2465,6 @@ nav img {
 	  border:none;
 	  border-radius: 4px;
 	  font-size: 10px;
-
 	}
 	.mainBox {
 	 display: none;
@@ -2468,6 +2537,17 @@ nav img {
 	  color: #A38B5F;
 	  line-height: 15px;
 	  padding-top: 10px;
+	}
+	.mainButton3 {
+		height: 30px;
+		width: 100px;
+		background: #A38B5F;
+		color: #282828;
+		font-weight: bold;
+		margin-top: 20px;
+		border:none;
+		border-radius: 4px;
+		font-size: 10px;
 	}
 	.momentumeColumn2 {
 	  width: 100%;
