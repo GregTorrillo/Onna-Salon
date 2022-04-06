@@ -734,16 +734,12 @@ nav img {
 }
 	
 /* ------------------MEDIA QUERY-TABLET PORTRAIT---------------------- */
-
-@media screen and (min-width: 800px) and (max-width: 1200px ){
+	media screen and (min-width: 800px) and (max-width: 1200px ){
 	/* ---------------HEADER---------------  */
 
 	nav {
-		width: 100%;
 		height: 60px;
-		display: flex;
 		justify-content: space-around;
-		align-items: center;
 	}
 	nav ul {
 		display: none;
@@ -759,77 +755,39 @@ nav img {
 
 	/* ---------------MAIN---------------  */
 	.main {
-	width: 100%;
 	height: 600px;
-	background-image: url(../images/main-photo.jpg);
-	background-size: cover;
-	background-position: center;
-	border-bottom-right-radius: 300px;
-	clip-path: polygon(0 80%, 0 0, 100% 0, 100% 100%);
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	position: relative;
-	margin: 0;
 	padding-left: 60px;
 	}
 	.mainHeadline {
 	  font-size: 44px;
-	  font-weight: bold;
-		color: lightgray;
 	  padding: 0 0 10px 0;
 	}
 	.mainStatement {
 	  font-size: 14px;
-	  font-weight: 400;
 	  padding-top: 10px;
-	  letter-spacing: 1px;
-		color: lightgray;
-
+		letter-spacing: 1px;
 	}
 	.mainButton1 {
 	  height: 50px;
 	  width: 150px;
-	  background: #A38B5F;
-	  color: #282828;
-	  font-weight: bold;
 	  margin-top: 20px;
-	  border:none;
-	  border-radius: 4px;
-	  font-size: 14px;
-
+	  font-size: 12px;
 	}
 	.mainBox {
 	  height: 200px;
 	  width: 200px;
-	  background: #A38B5F;
-	  position: absolute;
-	  z-index: 2;
-	  margin-top: 500px;
 	  top: 1%;
-	  left: 7%;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: flex-start;
-	  border-radius: 4px;
+	  left: 6%;
 	}
 	.mainBoxSpan1 {
 		font-size: 14px;
-		font-weight: bold;
-		color: #282828;
 		padding-left: 20px;
 	}
 	.mainBoxSpan2 {
 	  font-size: 14px;
-	  font-weight: bold;
-	  color: #282828;
 	}
 	.mainBoxSpan3 {
 	  font-size: 14px;
-	  font-weight: bold;
-	  color: #282828;
 	  padding: 10px 0 0 20px;
 	}
 	.boldNumber {
@@ -837,27 +795,16 @@ nav img {
 	}
 	.bold {
 	  font-size: 20px;
-	  font-weight: bold;
-	  color: #282828;
 	}
 	.mainButton2 {
 	  height: 50px;
 	  width: 150px;
-	  background: #000B14;
-	  color: white;
-	  font-weight: bold;
-	  border:none;
-	  border-radius: 4px;
 	  font-size: 12px;
 	  margin: 20px 0 0 20px;
 	}
 	/* ---------------SERVICES---------------  */
 	.services {
-	width: 100%;
 	height: 400px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	padding: 0 20px;
 	}
 	.servicesIcon {
@@ -865,47 +812,26 @@ nav img {
 	}
 	.servicesHeadline {
 	  font-size: 20px;
-	  font-weight: bold;
-	  color: #A38B5F;
 	  padding-top: 25px;
 	}
 	.servicesParagraph {
 	  font-size: 14px;
-	  font-weight: 400;
-	  color: #A38B5F;
 	  padding: 20px 0 0 0;
 	  line-height: 15px;
 	}
 	.quality, .beauticians, .products  {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  text-align: center;
 	  padding: 0 20px;
 	}
 	/* ---------------MOMENTUM---------------  */
 	.momentum {
-	width: 100%;
-	height: 400px;
-	background: #313B47;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+		height: 400px;
 	}
 	.momentumeColumn1 {
-	  width: 50%;
 	  height: 400px;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: flex-start;
 	  padding: 0 0 0 50px;
 	}
 	.momentumHeadline {
 	  font-size: 30px;
-	  font-weight: bold;
-	  color: #A38B5F;
-	  padding-bottom: 10px;
 	}
 	.momentumParagraph {
 	  display: none;
@@ -913,37 +839,20 @@ nav img {
 	.mainButton3 {
 	  height: 50px;
 	  width: 150px;
-	  background: #A38B5F;
-	  color: #282828;
-	  font-weight: bold;
 	  margin-top: 20px;
-	  border:none;
-	  border-radius: 4px;
-	  font-size: 14px;
-
+	  font-size: 12px;
 	}
 	.momentumeColumn2 {
-	  width: 50%;
 	  height: 400px;
-	  display: flex;
-	  align-items: center
 	}
 	.momentumPhoto {
 	  width: 75%;
 	}
 	/* ---------------STYLISTS---------------  */
 	.stylists {
-		width: 100%;
 		height: 400px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	.stylistColumn1, .stylistColumn2, .stylistColumn3 {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  position: relative;
 	  margin: 0;
 		border: none;
 	}
@@ -954,65 +863,37 @@ nav img {
 	.stylistBox {
 	  height: 40px;
 	  width: 120px;
-	  background: #A38B5F;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
-	  position: absolute;
 	  top: 92%;
 		left: auto;
-	  border-radius: 4px;
 	}
 	.stylistName {
 	  font-size: 12px;
-	  color: #282828;
-	  font-weight: bold;
-		text-align: center;
 	}
 	.occupation {
 	  font-size: 8px;
-	  color: #282828;
-	  font-weight: bold;
-	  padding-top: 5px;
 	}
 	/* ---------------COUPON---------------  */
 	.coupon {
-	width: 100%;
 	height: 200px;
-	position: relative;
 	}
 	.couponPhoto {
 	  width: 60%;
-	  display: block;
-	  position: relative;
 	  top: 20%;
 	  left: 20%;
 	}
 	.couponBox {
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: flex-start;
-	  position: absolute;
 	  top: 30%;
 	  left: 25%;
 	}
 	.couponSpan1 {
 	  font-size: 14px;
-	  font-weight: bold;
-	  color: #282828;
 	  padding-bottom: 10px;
 	}
 	.couponSpan2 {
 	  font-size: 16px;
-	  font-weight: bold;
-	  color: #282828;
 	}
 	.couponSpan3 {
 	  font-size: 16px;
-	  font-weight: bold;
-	  color: #282828;
 	  padding-bottom: 15px;
 	}
 	.couponParagraph {
@@ -1020,53 +901,29 @@ nav img {
 	}
 	.couponBold {
 	  font-size: 20px;
-	  font-weight: bold;
-	  color: #282828;
 	}
 	.couponButton {
 	  height: 50px;
 	  width: 150px;
-	  background: #000B14;
-	  color: white;
-	  font-weight: bold;
-	  border:none;
-	  border-radius: 4px;
 	  font-size: 10px;
 	}
 	/* ---------------LOOKBOOK---------------  */
 	.lookbook {
-	width: 100%;
-	height: 150px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
+		height: 200px;
+		justify-content: flex-end;
 	}
-	.lookbookHeadline, .lookbookDash {
+	.lookbookHeadline {
 	  font-size: 30px;
-	  font-weight: bold;
-	  color: #A38B5F;
 	}
 
 	/* ---------------GALLERY---------------  */
 	.gallery  {
-	width: 100%;
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 1rem;
+		height: 700px;
+		gap: 1rem;
 	}
 	.galleryColumn1, .galleryColumn2, .galleryColumn3 {
-	  width: 20%;
-	  height: 500px;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
+	  height: 600px;
 	  gap: 1rem;
-	}
-	.galleryLong, .galleryShort {
-		width: 100%;
 	}
 }
 
