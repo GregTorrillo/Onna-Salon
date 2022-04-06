@@ -1303,18 +1303,14 @@ nav img {
 	}
 }
 /* ------------------MEDIA QUERY- MOBILE LANDSCAPE ---------------------- */
-@media screen and (min-width: 370px) and (max-width: 480px ){
+	@media screen and (min-width: 370px) and (max-width: 480px ){
 	/* ---------------HEADER---------------  */
 	header {
-		width: 100%;
 		height: 50px;
 	}
 	nav {
-		width: 100%;
 		height: 50px;
-		display: flex;
 		justify-content: space-around;
-		align-items: center;
 	}
 	nav ul {
 		display: none;
@@ -1324,7 +1320,6 @@ nav img {
 		width: 7%;
 	}
 	.logo {
-		color: #A38B5F;
 		font-size: 40px;
 	}
 	.navBook {
@@ -1332,44 +1327,26 @@ nav img {
 	}
 	/* ---------------MAIN---------------  */
 	.main {
-	width: 100%;
-	height: 400px;
-	background-image: url(../images/main-photo.jpg);
-	background-size: cover;
-	background-position: right;
-	border-bottom-right-radius: 100px;
-	clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	position: relative;
-	margin: 0;
-	padding: 200px 0 0 40px;
+		height: 400px;
+		background-position: right;
+		border-bottom-right-radius: 100px;
+		clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
+		padding: 200px 0 0 40px;
 	}
 	.mainHeadline {
 	  font-size: 28px;
-	  font-weight: bold;
-		color: lightgray;
 	  padding: 0 0 10px 0;
 	}
 	.mainStatement {
 	  font-size: 10px;
-	  font-weight: 400;
-	  padding-top: 10px;
 	  letter-spacing: 0px;
-		color: lightgray;
 	}
 	.mainButton1 {
 	  height: 40px;
 	  width: 120px;
-	  background: #A38B5F;
-	  color: #282828;
-	  font-weight: bold;
 	  margin-top: 20px;
-	  border:none;
-	  border-radius: 4px;
 	  font-size: 12px;
+		font-weight: 300;
 	}
 	.mainBox {
 	 display: none;
@@ -1377,49 +1354,31 @@ nav img {
 
 	/* ---------------SERVICES---------------  */
 	.services {
-	width: 100%;
-	height: 800px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 50px 20px 0 20px;
+		height: 800px;
+		flex-direction: column;
+		padding: 50px 20px 0 20px;
 	}
 	.servicesIcon {
 	  width: 15%;
 	}
 	.servicesHeadline {
 	  font-size: 18px;
-	  font-weight: bold;
-	  color: #A38B5F;
 	  padding-top: 25px;
 		line-height: 20px;
 	}
 	.servicesParagraph {
 	  font-size: 14px;
-	  font-weight: 400;
-	  color: #A38B5F;
 	  padding: 20px 20px 0 20px;
 	  line-height: 15px;
 	}
 	.quality, .beauticians, .products  {
-		width: 100%;
 		height: 250px;
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  text-align: center;
 	  padding: 0 20px;
 	}
 	/* ---------------MOMENTUM---------------  */
 	.momentum {
-	width: 100%;
-	height: 600px;
-	background: #313B47;
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
-	align-items: center;
+		height: 600px;
+		flex-direction: column-reverse;
 	}
 	.momentumeColumn1 {
 	  width: 100%;
@@ -1432,27 +1391,19 @@ nav img {
 	}
 	.momentumHeadline {
 	  font-size: 26px;
-	  font-weight: bold;
-	  color: #A38B5F;
 	  padding-bottom: 5px;
 	}
 	.momentumParagraph {
 		font-size: 12px;
-	  font-weight: 400;
-	  color: #A38B5F;
 	  line-height: 15px;
 	  padding-top: 15px;
 	}
 	.mainButton3 {
 		height: 40px;
 		width: 120px;
-		background: #A38B5F;
-		color: #282828;
-		font-weight: bold;
 		margin-top: 20px;
-		border:none;
-		border-radius: 4px;
 		font-size: 12px;
+		font-weight: 300;
 	}
 	.momentumeColumn2 {
 	  width: 100%;
@@ -1463,23 +1414,13 @@ nav img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-
 	}
 	/* ---------------STYLISTS---------------  */
 	.stylists {
-		width: 100%;
 		height: 1200px;
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 	}
 	.stylistColumn1, .stylistColumn2, .stylistColumn3 {
-		width: 100%
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  position: relative;
 	  margin: 0;
 		padding: 40px 0;
 		border: none;
@@ -1491,68 +1432,40 @@ nav img {
 	.stylistBox {
 	  height: 40px;
 	  width: 120px;
-	  background: #A38B5F;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
-	  position: absolute;
 	  top: 85%;
 	  left: auto;
-	  border-radius: 4px;
 	}
 	.stylistName {
 	  font-size: 10px;
-	  color: #282828;
-	  font-weight: bold;
-		text-align: center;
 	}
 	.occupation {
 	  font-size: 8px;
-	  color: #282828;
-	  font-weight: bold;
-	  padding-top: 5px;
 	}
 	/* ---------------COUPON---------------  */
 	.coupon {
 	width: 100%;
 	height: 200px;
-	position: relative;
 	}
 	.couponPhoto {
 	  width: 100%;
-	  display: block;
-	  position: relative;
 	  top: 20%;
 	  left: auto;
 		right: auto;
 	}
 	.couponBox {
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: flex-start;
-	  position: absolute;
-	  /* top: 40%; */
 	  left: auto;
 		padding-left: 40px;
 
 	}
 	.couponSpan1 {
 	  font-size: 10px;
-	  font-weight: bold;
-	  color: #282828;
 	  padding-bottom: 10px;
 	}
 	.couponSpan2 {
 	  font-size: 12px;
-	  font-weight: bold;
-	  color: #282828;
 	}
 	.couponSpan3 {
 	  font-size: 12px;
-	  font-weight: bold;
-	  color: #282828;
 	  padding-bottom: 15px;
 	}
 	.couponParagraph {
@@ -1560,56 +1473,35 @@ nav img {
 	}
 	.couponBold {
 	  font-size: 16px;
-	  font-weight: bold;
-	  color: #282828;
 	}
 	.couponButton {
 	  height: 40px;
 	  width: 120px;
-	  background: #000B14;
-	  color: white;
-	  font-weight: bold;
-	  border:none;
-	  border-radius: 4px;
+	  font-weight: 300;
 	  font-size: 10px;
 	}
 	/* ---------------LOOKBOOK---------------  */
 	.lookbook {
 		width: 100%;
 		height: 150px;
-		display: flex;
-		flex-direction: column;
 		justify-content: flex-end;
-		align-items: center;
 	}
-	.lookbookHeadline, .lookbookDash {
+	.lookbookHeadline {
 	  font-size: 24px;
-	  font-weight: bold;
-	  color: #A38B5F;
 	}
 
 	/* ---------------GALLERY---------------  */
 	.gallery  {
-		width: 100%;
-		height: 400px;
-		display: flex;
-		justify-content: center;
+		height: 450px;
 		align-items: flex-end;
 		gap: 1rem;
 	}
 	.galleryColumn1, .galleryColumn2, .galleryColumn3 {
 	  width: 25%;
 	  height: 400px;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
 	  gap: 1rem;
 	}
-	.galleryLong, .galleryShort {
-		width: 100%;
-	}
 }
-
 /* ------------------MEDIA QUERY- MOBILE PORTRAIT ---------------------- */
 @media screen and (max-width: 370px ){
 	/* ---------------HEADER---------------  */
