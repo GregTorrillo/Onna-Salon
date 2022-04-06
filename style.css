@@ -1503,4 +1503,204 @@ nav img {
 	}
 }
 /* ------------------MEDIA QUERY- MOBILE PORTRAIT ---------------------- */
+@media screen and (max-width: 370px ){
+	/* ---------------HEADER---------------  */
+	header {
+	  height: 50px;
+	}
+	nav {
+	  height: 50px;
+	  justify-content: space-around;
+	}
+	nav ul {
+	  display: none;
+	}
+	nav img {
+	  display: block;
+	  width: 7%;
+	}
+	.logo {
+	  font-size: 40px;
+	}
+	.navBook {
+	  display: none;
+	}
+	/* ---------------MAIN---------------  */
+	.main {
+	  height: 400px;
+	  background-position: right;
+	  border-bottom-right-radius: 100px;
+	  clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
+	  padding: 220px 0 0 40px;
+	}
+	.mainHeadline {
+	  font-size: 24px;
+	  padding: 0 0 5px 0;
+	}
+	.mainStatement {
+	  font-size: 8px;
+	  letter-spacing: 0px;
+	}
+	.mainButton1 {
+	  height: 30px;
+	  width: 100px;
+	  font-weight: 300;
+	  margin-top: 20px;
+	  font-size: 10px;
+	}
+	.mainBox {
+	 display: none;
+	}
 
+	/* ---------------SERVICES---------------  */
+	.services {
+	height: 800px;
+	flex-direction: column;
+	padding: 50px 20px 0 20px;
+	}
+	.servicesIcon {
+	  width: 15%;
+	}
+	.servicesHeadline {
+	  font-size: 18px;
+	  padding-top: 25px;
+		line-height: 20px;
+	}
+	.servicesParagraph {
+	  font-size: 12px;
+	  padding: 20px 20px 0 20px;
+	  line-height: 15px;
+	}
+	.quality, .beauticians, .products  {
+		height: 250px;
+	  padding: 0 20px;
+	}
+	/* ---------------MOMENTUM---------------  */
+	.momentum {
+		height: 600px;
+		flex-direction: column-reverse;
+
+	}
+	.momentumeColumn1 {
+	  width: 100%;
+	  height: 300px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: flex-start;
+	  align-items: center;
+	  padding: 0 40px;
+	}
+	.momentumHeadline {
+	  font-size: 18px;
+	  padding-bottom: 5px;
+	}
+	.momentumParagraph {
+		font-size: 12px;
+	  line-height: 15px;
+	  padding-top: 10px;
+	}
+	.mainButton3 {
+		height: 30px;
+		width: 100px;
+		font-weight: 300;
+		margin-top: 20px;
+		font-size: 10px;
+	}
+	.momentumeColumn2 {
+	  width: 100%;
+	  height: 300px;
+	}
+	.momentumPhoto {
+	  width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	/* ---------------STYLISTS---------------  */
+	.stylists {
+		height: 1000px;
+		flex-direction: column;
+	}
+	.stylistColumn1, .stylistColumn2, .stylistColumn3 {
+	  margin: 0;
+		padding: 40px 0;
+		border: none;
+	}
+	.stylist {
+		width: 60%;
+		border: 5px solid #020A14;
+	}
+	.stylistBox {
+	  height: 40px;
+	  width: 120px;
+	  top: 85%;
+	  left: auto;
+	}
+	.stylistName {
+	  font-size: 10px;
+	}
+	.occupation {
+	  font-size: 8px;
+	}
+	/* ---------------COUPON---------------  */
+	.coupon {
+		width: 100%;
+		height: 200px;
+	}
+	.couponPhoto {
+	  width: 120%;
+	  top: 20%;
+	  left: auto;
+		right: auto;
+	}
+	.couponBox {
+	  left: auto;
+		padding-left: 40px;
+
+	}
+	.couponSpan1 {
+	  font-size: 10px;
+	  padding-bottom: 10px;
+	}
+	.couponSpan2 {
+	  font-size: 12px;
+	}
+	.couponSpan3 {
+	  font-size: 12px;
+	  padding-bottom: 15px;
+	}
+	.couponParagraph {
+		padding-bottom: 12px;
+	}
+	.couponBold {
+	  font-size: 16px;
+	}
+	.couponButton {
+	  height: 30px;
+	  width: 100px;
+	  font-weight: 300;
+	  font-size: 8px;
+	}
+	/* ---------------LOOKBOOK---------------  */
+	.lookbook {
+		width: 100%;
+		height: 150px;
+		justify-content: flex-end;
+	}
+	.lookbookHeadline{
+	  font-size: 24px;
+	}
+
+	/* ---------------GALLERY---------------  */
+	.gallery  {
+		height: 400px;
+		align-items: flex-end;
+		gap: 1rem;
+	}
+	.galleryColumn1, .galleryColumn2, .galleryColumn3 {
+	  width: 25%;
+	  height: 400px;
+	  gap: 1rem;
+	}
+}
