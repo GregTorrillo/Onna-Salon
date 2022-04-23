@@ -1,6 +1,6 @@
 <h1 align="center">ONNA Salon | <a href="https://onnasalon.netlify.app/">Website</a></h1>
 <div align="center">
-	  <img src="https://github.com/GregTorrillo/Onna-Salon/blob/main/images/ONNA%20salon.jpg" width="100%" />
+	  <img src="https://github.com/GregTorrillo/Onna-Salon/blob/main/images/ONNA%20salon.jpg" width="25%" />
 </div>
 
 ## Motivation: 
