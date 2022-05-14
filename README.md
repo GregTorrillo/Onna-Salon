@@ -3,7 +3,7 @@
 	  <img src="https://github.com/GregTorrillo/Onna-Salon/blob/main/Onna.gif" width="100%" />
 </div>
 <br>
-<p align="center"><a href="https://onnasalon.netlify.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="125px" height="45px"></a></p
+<p align="center"><a href="https://onnasalon.netlify.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="120px" height="45px"></a></p
 
 ## Motivation: 
 Create a website for a high-end beauty salon. 
